@@ -93,6 +93,7 @@ if __name__ == "__main__":
             print ('-v regex valid string')
             print ('enablelog: log')
             print ('lang: zh')
+            print ('example: python svnlog.py -i log.txt -v "Modules/.*.cs" log zh')
             sys.exit()
         elif opt in ("-i","--file"):
             file = arg
